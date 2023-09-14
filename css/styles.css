@@ -1,6 +1,7 @@
 body {
     font-family: Roboto, sans-serif;
     color: #434455;
+    background-color: #FFFFFF;
 }
 
 a {
@@ -13,8 +14,8 @@ a {
 .link-element:visited {
     color: #2E2F42;
 }
-.link-element:hover, .link-element:active {
-    color: #4D5AE5;
+.link-element:hover, .link-element:active, .link-element:focus {
+    color: #404bbf;
 }
 .address-link {
     color: #434455;
@@ -24,8 +25,9 @@ a {
 }
 
 .address-link:hover,
-.address-link:active {
-    color: #4D5AE5;
+.address-link:active,
+.address-link:focus {
+    color: #404bbf;
 }
 
 .heading-color {
@@ -42,25 +44,38 @@ a {
 }
 
 .logo-accent {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
 /* HEADER */
 .header-logo {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.header-logo:visited {
+    color: #4d5ae5;
 }
 
 .header-navigation__list-item .link-element {
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-address {
+    font-style: normal;
 }
 
 .header-address__list .address-link {
     font-style: normal;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* HERO SECTIOIN */
@@ -81,17 +96,20 @@ a {
     background-color: #4D5AE5;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     color: inherit;
     cursor: pointer;
 }
 
-.hero-section__button:hover {
-    background-color: #6c77ea;
+.hero-section__button:hover,
+.hero-section__button:focus {
+    background-color: #404BBF;
 }
 
 /* ABOUT US SECTION */
-.about-us-section__list-item p {
+.about-us-section__content {
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .heading-title {
@@ -100,11 +118,17 @@ a {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 /* OUR TEAM SECTION */
 .our-team-section {
     background-color: #F4F4FD;
+}
+
+.our-team-section__list-item {
+    background-color: #FFFFFF;
 }
 
 .our-team-section__list-item__title {
