@@ -1,0 +1,152 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link-element {
+    color: #2E2F42;
+}
+.link-element:visited {
+    color: #2E2F42;
+}
+.link-element:hover, .link-element:active {
+    color: #4D5AE5;
+}
+.address-link {
+    color: #434455;
+}
+.address-link:visited {
+    color: #434455;
+}
+
+.address-link:hover,
+.address-link:active {
+    color: #4D5AE5;
+}
+
+.heading-color {
+    color: #2E2F42;
+}
+
+.subheading {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.logo-accent {
+    color: #4D5AE5;
+}
+
+/* HEADER */
+.header-logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+}
+
+.header-navigation__list-item .link-element {
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.header-address__list .address-link {
+    font-style: normal;
+    line-height: 1.5;
+}
+
+/* HERO SECTIOIN */
+.hero-section {
+    background-color: #2E2F42;
+    color: #ffffff;
+}
+
+.hero-section__title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.hero-section__button {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    color: inherit;
+    cursor: pointer;
+}
+
+.hero-section__button:hover {
+    background-color: #6c77ea;
+}
+
+/* ABOUT US SECTION */
+.about-us-section__list-item p {
+    line-height: 1.5;
+}
+
+.heading-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+/* OUR TEAM SECTION */
+.our-team-section {
+    background-color: #F4F4FD;
+}
+
+.our-team-section__list-item__title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.our-team-section__list-item__content {
+    line-height: 1.5;
+}
+
+.our-team-section__list-description {
+    text-align: center;
+}
+
+/* OUR PORTFOLIO SECTION */
+
+.our-portfolio-section__description p {
+    line-height: 1.5;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-logo {
+    color: white;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+}
+
+.footer-logo:visited {
+    color: white;
+}
+
+.footer p {
+    color: #F4F4FD;
+    line-height: 1.5;;
+}
+
